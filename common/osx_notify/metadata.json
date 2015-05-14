@@ -1,0 +1,31 @@
+{
+  "version": "0.0.4",
+  "license": "Expat License",
+  "types": [
+
+  ],
+  "source": "UNKNOWN",
+  "project_page": "https://github.com/JHaals/jhaals-osx_notify",
+  "description": "Displays messages in Mac OS X Notification Center using Eloy Duráns terminal-notifier",
+  "checksums": {
+    "LICENSE": "8c9f501ef3bb5e2ba7d2efb67c5f4d96",
+    "lib/facter/user_online.rb": "79bf4ab9a61bc3a0b808e8994cb3b38a",
+    "spec/classes/osx_notify_setup_spec.rb": "3d5c5e87f3154bf825fe15daff3eccea",
+    "manifests/init.pp": "755630899a68b2734314b3190a2c9a39",
+    "Gemfile": "651d5eae963d32f36e7e5cf0f7a34a9c",
+    "Rakefile": "f39450f89f23380c06f6d6a36d0ec017",
+    "spec/spec_helper.rb": "792eeb7aa7edafb93e2bc1d27c5e75c5",
+    "spec/fixtures/manifests/site.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "manifests/setup.pp": "7b41718a20893a62eab4fc277e20141d",
+    "spec/defines/osx_notify_spec.rb": "365d43362764ebf83e8ac624ca8a06c9",
+    "CHANGELOG": "3ac02008aeca5851e0403607b5a33744",
+    "README.md": "97fab45aa7bb8eec2e3092345ccc9b8b",
+    "Modulefile": "2f6e1bb2d6b043f22447041b6d7fe452"
+  },
+  "summary": "UNKNOWN",
+  "name": "jhaals-osx_notify",
+  "dependencies": [
+
+  ],
+  "author": "Johan Haals <johan.haals@gmail.com>"
+}

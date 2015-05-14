@@ -1,0 +1,23 @@
+{
+  "name": "masonm-repo_mysql",
+  "version": "0.1.0",
+  "source": "https://github.com/masonm/repo_mysql.git",
+  "author": "Mason Malone",
+  "license": "Apache License, Version 2.0",
+  "summary": "Installs the Mysql Yum repository for Enterprise Linux (RHEL, CentOS) clients",
+  "description": "UNKNOWN",
+  "project_page": "https://github.com/masonm/repo_mysql",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "78cc835ad04b301e918e3d9bad487474",
+    "README.md": "bee9532ebf782cc29ec4422fa0a5ebda",
+    "files/RPM-GPG-KEY-mysql": "26b9ed77a3a087874a27103c1f9d6a6f",
+    "lib/facter/os_maj_version.rb": "50ec5423bac89f7c9008bc6b50fe2749",
+    "manifests/init.pp": "2e4bbcadd4b4ee870a3fc496c84fbee7"
+  }
+}

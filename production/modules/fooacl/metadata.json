@@ -1,0 +1,30 @@
+{
+  "author": "Matthias Saou",
+  "dependencies": [
+    {
+      "name": "puppetlabs/concat"
+    }
+  ],
+  "types": [
+
+  ],
+  "name": "thias-fooacl",
+  "license": "Apache 2.0",
+  "description": "Manage POSIX filesystem ACLs in a flexible way with puppet.",
+  "version": "0.1.2",
+  "source": "git://github.com/thias/puppet-fooacl",
+  "summary": "POSIX filesystem ACLs module.",
+  "checksums": {
+    "Modulefile": "4af671eab9548de13e3847aad4d03486",
+    "manifests/conf.pp": "fc13e6c8dfb907f43951eb1cf4fd7fdb",
+    "manifests/init.pp": "ebc9a93244bae1e581a1fdc532d5f75a",
+    "templates/30.erb": "ff2a4f0b8f9bf2b742dcc5b616430faa",
+    "templates/10.erb": "50bb1b4d06a906ab2a63c5a079d00a0a",
+    "README.md": "65f89c63e77d1d600e55ea1d1ad81b3a",
+    "tests/init.pp": "026af74ddaacaf1a5560f9d9c743cf7f",
+    "templates/20.erb": "10b9ac40f055b8c26a138e9fc90b36fe",
+    "LICENSE": "83e46d88c72d131428fd758472adc03a",
+    "ChangeLog": "c1aaf9190f255f6c51da18ba0223e4b6"
+  },
+  "project_page": "https://github.com/thias/puppet-fooacl"
+}

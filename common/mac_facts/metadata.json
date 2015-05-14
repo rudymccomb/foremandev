@@ -1,0 +1,36 @@
+{
+  "name": "grahamgilbert-mac_facts",
+  "version": "0.4.0",
+  "source": "UNKNOWN",
+  "author": "grahamgilbert",
+  "license": "Apache License, Version 2.0",
+  "summary": "A collection of Facts to aid with the administration of OS X machines",
+  "description": "Some simple Facts that may help with configuring OS X client machines",
+  "project_page": "https://github.com/grahamgilbert/grahamgilbert-mac_facts",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "CHANGELOG.md": "68dd927383fe1690a47170b48d1dd32e",
+    "LICENSE": "a832eda17114b48ae16cda6a500941c2",
+    "Modulefile": "d5b18ca0bea449933e5a191cbfda3101",
+    "NOTICE": "11b66a58385a18056a1551f6e9fcc7a3",
+    "README.md": "d35dcac5f0009961c57ea78d1f0f9333",
+    "lib/facter/mac_battery_charge_percent.rb": "8a43ea781d6d188cbfdb74d6fa038da8",
+    "lib/facter/mac_battery_charging.rb": "ec7b20e42f094f5a257e8519b1d2406c",
+    "lib/facter/mac_battery_cycles.rb": "f205770da5edc7c76426de1d568a8298",
+    "lib/facter/mac_battery_health.rb": "1e479040dae43ffb110c4871011ece66",
+    "lib/facter/mac_current_user.rb": "fc19de85d8869b3fac136ed015707945",
+    "lib/facter/mac_encryption_enabled.rb": "02a828905687834d079ef11f69171c12",
+    "lib/facter/mac_flash_version.rb": "f71b27a8cc31a88eeb49b858edf1efaf",
+    "lib/facter/mac_has_wireless.rb": "252e09e92f74dc9e9f65d1f1538ca208",
+    "lib/facter/mac_java_vendor.rb": "13d2c8aeed747556e47832ede6ebcaff",
+    "lib/facter/mac_java_version.rb": "0b16f9f72079d94f0a468c59392b6878",
+    "lib/facter/mac_laptop.rb": "968c3317e7a58a4ea57a5707525f741e",
+    "lib/facter/mac_memory_in_gb.rb": "d431e7c6bfb30d80f9384e45e21aae06",
+    "lib/facter/mac_timezone.rb": "a6eac1805fe87b1c87a059becbce9d80"
+  }
+}

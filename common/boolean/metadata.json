@@ -1,0 +1,23 @@
+{
+  "name": "adrien-boolean",
+  "version": "1.0.1",
+  "source": "https://github.com/adrienthebo/puppet-boolean",
+  "author": "Adrien Thebo <adrien@somethingsinistral.net>",
+  "license": "Apache 2.0",
+  "summary": "Boolean normalizing property for Puppet types",
+  "description": "Define true boolean properties in Puppet types, that can normalize\nall reasonable boolean values to Ruby boolean values.\n",
+  "project_page": "https://github.com/adrienthebo/puppet-boolean",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "CHANGELOG": "ee79dd979bbd6455031ac1039778fc1d",
+    "LICENSE": "8cbd44f4ffbc81632df22fdd4ae87811",
+    "Modulefile": "a475ce963325725e16adc26ecc38ba53",
+    "README.markdown": "438c0e28a425fb69d0dcb49e8c5122c2",
+    "lib/puppet/property/boolean.rb": "079548fa5c168f3035304755982e9eb0"
+  }
+}

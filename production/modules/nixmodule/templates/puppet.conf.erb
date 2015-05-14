@@ -1,0 +1,31 @@
+[main]
+logdir = /var/log/puppet
+vardir = /var/lib/puppet
+ssldir = $vardir/ssl
+rundir = /var/run/puppet
+factpath = $vardir/lib/facter
+#templatedir is depricated in v4.0 prep to remove http://docs.puppetlabs.com/guides/templating.html
+#templatedir = $vardir/templates
+runinterval = 1800
+pluginsync = true
+report = true
+
+
+[master]
+# These are needed when the puppet master is run by passenger
+# and can safely be removed if webrick is used.
+ssl_client_header = SSL_CLIENT_S_DN
+ssl_client_verify_header = SSL_CLIENT_VERIFY
+dns_alt_name = calfrmprd01.foo.com
+
+
+
+[agent]
+##This is the name of our server
+server = calfrmprd01.foo.com
+##This is where we specify the name of our client
+certname = <%= @fqdn %>
+classfile = $vardir/classes.txt
+localconfig = $vardir/localconfig
+graph = true
+pluginsync = true

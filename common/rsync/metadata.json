@@ -1,0 +1,24 @@
+{
+  "name": "puppetlabs-rsync",
+  "version": "0.3.0",
+  "author": "puppetlabs",
+  "summary": "RSync puppet module",
+  "license": "Apache License, Version 2.0",
+  "source": "https://github.com/puppetlabs/puppetlabs-rsync",
+  "project_page": "https://github.com/puppetlabs/puppetlabs-rsync",
+  "issues_url": "https://github.com/puppetlabs/puppetlabs-rsync/issues",
+  "types": [
+  
+  ],
+  "description": "Module to install and configure RSync",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">=2.2.1"
+    },
+    {
+      "name": "puppetlabs/xinetd",
+      "version_requirement": ">=1.1.0"
+    }
+  ]
+}

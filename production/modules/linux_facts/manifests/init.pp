@@ -1,0 +1,1 @@
+class linux_facts {}

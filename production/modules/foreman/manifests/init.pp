@@ -1,0 +1,2 @@
+#  manages foreman
+class foreman { }

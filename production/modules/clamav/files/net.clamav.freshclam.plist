@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>Label</key>
+   <string>net.clamav.freshclam</string>
+   <key>LowPriorityIO</key>
+   <true/>
+   <key>ProgramArguments</key>
+   <array>
+      <string>/usr/local/clamXav/bin/freshclam</string>
+      <string>--quiet</string>
+      <string>--log="/usr/local/clamXav/share/clamav/freshclam.log"</string>
+   </array>
+   <key>RunAtLoad</key>
+   <true/>
+   <key>ServiceDescription</key>
+   <string>Checks for and downloads updates to the ClamAV virus database.</string>
+   <key>StartInterval</key>
+   <integer>10800</integer>
+</dict>
+</plist>

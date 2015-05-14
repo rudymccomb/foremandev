@@ -1,0 +1,17 @@
+{
+  "name": "foo-dev",
+  "version": "0.1.0",
+  "author": "rudy mccomb",
+  "summary": "manages foo dev environment including magento app server and db servers",
+  "license": "Apache 2.0",
+  "source": "http://calgitprd01.foo.com:7990/scm/devops/foo-dev.git",
+  "project_page": "http://calgitprd01.foo.com:7990/scm/devops/foo-dev.git",
+  "issues_url": "http://calgitprd01.foo.com:7990/scm/devops/foo-dev.git",
+  "dependencies": [
+    {
+      "version_range": ">= 1.0.0",
+      "name": "puppetlabs-stdlib"
+    }
+  ]
+}
+

@@ -1,0 +1,30 @@
+{
+  "name": "trlinkin-domain_membership",
+  "version": "0.0.1",
+  "source": "UNKNOWN",
+  "author": "Thomas Linkin <trlinkin@gmail.com>",
+  "license": "Apache License, Version 2.0",
+  "summary": "Module for managing AD domain membership of Windows systems.",
+  "description": "This module uses Powershell and WMI to control\nthe Active Directory domain membership of a Windows system.",
+  "project_page": "https://github.com/trlinkin/puppet-domain_membership",
+  "dependencies": [
+    {
+      "name": "joshcooper/powershell",
+      "version_requirement": ">= 0.0.5"
+    },
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.1.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "0c3af7809b3f8bc12be05291a96cfc96",
+    "README.md": "7ec6e0ce833289bd682a16f12f3234be",
+    "manifests/init.pp": "6d688d2078bb7a1856913d8266b288f4",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "tests/init.pp": "9ed91ca699f5a844b2b1dcde6b168e07"
+  }
+}

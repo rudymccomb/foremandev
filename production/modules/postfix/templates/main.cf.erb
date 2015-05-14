@@ -1,0 +1,19 @@
+soft_bounce = no
+command_directory = /usr/sbin
+daemon_directory = /usr/libexec/postfix
+mail_owner = postfix
+myhostname = <%= @hostname %>
+mydomain = <%= @domain %>
+myorigin = $mydomain
+mynetworks = 1.1.1.1/32, 127.0.0.0/8, 172.17.0.0/23, 10.0.2.15/24
+relayhost = relay.foo.com
+mydestination = $myhostname, localhost.$mydomain, localhost, $mydomain, foo.com, foo.com
+unknown_local_recipient_reject_code = 550
+relay_domains = $mydestination
+smtpd_reject_unlisted_recipient = yes
+unverified_recipient_reject_code = 550
+smtp_banner = $myhostname ESMTP
+setgid_group = postdrop
+mailbox_size_limit = 256000000
+inet_interfaces = all
+inet_protocols = all

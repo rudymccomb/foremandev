@@ -1,0 +1,27 @@
+{
+  "name": "continuent-percona_repo",
+  "version": "0.1.5",
+  "source": "https://github.com/continuent/continuent-percona_repo",
+  "author": "Continuent",
+  "license": "Apache 2.0",
+  "summary": "Module for installing Percona repositories",
+  "description": "Module for installing Percona repositories",
+  "project_page": "https://github.com/continuent/continuent-percona_repo",
+  "dependencies": [
+    {
+      "name": "puppetlabs/apt",
+      "version_requirement": ">= 1.4.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "LICENSE": "d2794c0df5b907fdace235a619d80314",
+    "Modulefile": "3b71c0f0403d2af99ef571b8bb50bb49",
+    "README.md": "56381b5e51493af035e71bbb4409fce3",
+    "manifests/apt.pp": "55b0af5926e4e389c2fa34e7fb33453f",
+    "manifests/init.pp": "4ca3119133086559e48b1329d7ee096a",
+    "manifests/yum.pp": "c2e31e8862d3d0461caa45693056d8ed"
+  }
+}

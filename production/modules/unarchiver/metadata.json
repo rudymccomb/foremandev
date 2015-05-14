@@ -1,0 +1,22 @@
+{
+  "name": "skoblenick-unarchiver",
+  "version": "0.3.0",
+  "source": "https://github.com/skoblenick/puppet-unarchiver",
+  "author": "skoblenick",
+  "license": "MIT License",
+  "summary": "A Puppet module to install The Unarchiver for OS X",
+  "description": "A Puppet module to install The Unarchiver for OS X",
+  "project_page": "https://github.com/skoblenick/puppet-unarchiver",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">=4.1.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+
+  }
+}

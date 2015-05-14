@@ -1,0 +1,58 @@
+{
+  "name": "counsyl-windows",
+  "version": "0.9.1",
+  "source": "git://github.com/counsyl/puppet-windows.git",
+  "author": "Counsyl, Inc.",
+  "license": "Apache License, Version 2.0",
+  "summary": "Collection of useful Puppet manifests for Windows-based platforms.",
+  "description": "Collection of useful Puppet manifests for Windows-based platforms.",
+  "project_page": "https://github.com/counsyl/puppet-windows",
+  "dependencies": [
+    {
+      "name": "counsyl/sys",
+      "version_requirement": ">= 0.9.13"
+    },
+    {
+      "name": "joshcooper/powershell",
+      "version_requirement": ">= 0.0.6"
+    },
+    {
+      "name": "puppetlabs/registry",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "LICENSE": "bf12e8bbabb1b665e3412f5666f632d9",
+    "Modulefile": "42aa508c3b45611e658bf170700f5f2c",
+    "README.md": "4884c89910dc2548124819372ef78c09",
+    "manifests/autologon.pp": "563b5ee909e73e3c0cddfa587d850a52",
+    "manifests/environment.pp": "8d56c654fbb63a75dd62fcf6a3121b94",
+    "manifests/firewall_rule.pp": "a95bddf10dcb31a710ecb85fdce407c2",
+    "manifests/iis_express.pp": "26c6e031a761b3494489126d4002c3ae",
+    "manifests/init.pp": "47908036459f277e0d7313c2fb8c8da3",
+    "manifests/java.pp": "5043a163a4811905b88e05c84a59de2a",
+    "manifests/nssm.pp": "fbb3f88f8c308a608c42055e46d6502b",
+    "manifests/params.pp": "2b4c890d37dfda14db3a4d01edb5b2d8",
+    "manifests/path.pp": "fa40e5f4c87827025ca769023c0f86b6",
+    "manifests/refresh_environment.pp": "ce7d4632fd2973425a7f5098d4877461",
+    "manifests/regsvr32.pp": "79ed7143096a6c27dcf0ffebb88be25b",
+    "manifests/screen_saver.pp": "6c1cf7e0f40e6f6d5de0ee1f09e5a718",
+    "manifests/shortcut.pp": "b9c4914b7140886bcae5b6fde3fd2323",
+    "manifests/unzip.pp": "6c9cfe49cfc14c009a2f1aa7a410d93a",
+    "manifests/update.pp": "c8bbaedfb38d74fc3009d20feaa6b0a2",
+    "templates/download_java.ps1.erb": "198fbe342f71c94d447dd8b24392edbe",
+    "templates/ez_setup.py.erb": "2246c1031890ae39c8edae666ad4fcd1",
+    "templates/firewall_rule.erb": "3459ea3c885f577249bb8b5aa477292e",
+    "templates/path_check.ps1.erb": "64dab7c5ccea3f8f70d89f7702d73e7c",
+    "templates/path_set.ps1.erb": "435a41e94e2c3603abd25d84299b70a3",
+    "templates/refresh_environment.ps1.erb": "fa18d5e41c815b526b2738b25c886534",
+    "templates/regsvr32.ps1.erb": "4467828b47bf8fdf9c33391d3cba7858",
+    "templates/screen_saver_check.ps1.erb": "480fd822ce66416133d48157b7145318",
+    "templates/screen_saver_set.ps1.erb": "314f162161ca83799cdb010ae5f2f1c3",
+    "templates/shortcut.ps1.erb": "1ea3473cbc4cce727f6f2c9ac78b8a26",
+    "templates/unzip.ps1.erb": "76affe47ad2a324519315f21dfd6ab46"
+  }
+}

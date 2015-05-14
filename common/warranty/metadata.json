@@ -1,0 +1,22 @@
+{
+  "name": "jhaals-warranty",
+  "version": "0.0.5",
+  "source": "UNKNOWN",
+  "author": "Johan Haals <johan.haals@gmail.com>",
+  "license": "Expat License",
+  "summary": "UNKNOWN",
+  "description": "Provides warranty information for Lenovo/Dell hardware",
+  "project_page": "https://github.com/JHaals/jhaals-warranty",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "LICENCE": "8c9f501ef3bb5e2ba7d2efb67c5f4d96",
+    "Modulefile": "e50682aa44111a9321fe9f0d0b04df8f",
+    "README.md": "ad700c6ca1863a822cb32c880370cdb8",
+    "lib/facter/warranty.rb": "6e16090b42e592c53f569e0cdae2794c"
+  }
+}
